@@ -1,53 +1,490 @@
-/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:51:28: error:  initializer 'init(id:flags:)' is declared in extension of 'Application' and cannot be overridden
-    @inlinable convenience init?(id: UnsafePointer<gchar>? = nil, flags: ApplicationFlags = []) {
-                           ^
-/home/user/Projects/SwiftLibAdwaita/.build/checkouts/swiftgtk/Sources/Gtk/App.swift:103:28: note: overridden declaration is here
-    @inlinable convenience init?(id: UnsafePointer<gchar>? = nil, flags: ApplicationFlags = []) {
-                           ^
-/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:84:26: error: cannot find 'argv' in scope
-                var av = argv(params)
-                         ^~~~
-/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:136:40: error: '_shared' is inaccessible due to 'internal' protection level
-        if let sharedApp = Application._shared {
-                                       ^~~~~~~
-/home/user/Projects/SwiftLibAdwaita/.build/checkouts/swiftgtk/Sources/Gtk/App.swift:70:43: note: '_shared' declared here
-    @usableFromInline internal static var _shared: Application?
-                                          ^
+warning: prohibited flag(s): -pthread, -pthread, -pthread, -pthread, -pthread, -pthread
+warning: circular dependency detected while parsing cairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing cairo: freetype2 -> harfbuzz -> freetype2
+warning: prohibited flag(s): -pthread, -pthread
+warning: circular dependency detected while parsing harfbuzz-gobject: harfbuzz -> freetype2 -> harfbuzz
+warning: prohibited flag(s): -pthread, -pthread, -pthread
+warning: circular dependency detected while parsing pango: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing pango: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pango: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pango: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pango: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pango: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pango: freetype2 -> harfbuzz -> freetype2
+warning: prohibited flag(s): -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread
+warning: circular dependency detected while parsing pangocairo: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing pangocairo: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing pangocairo: harfbuzz -> freetype2 -> harfbuzz
+warning: prohibited flag(s): -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread
+warning: prohibited flag(s): -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread
+warning: circular dependency detected while parsing gtk4: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: harfbuzz -> freetype2 -> harfbuzz
+warning: prohibited flag(s): -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -mfpmath=sse, -msse, -msse2, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread
+warning: prohibited flag(s): -mfpmath=sse, -msse, -msse2, -pthread, -pthread
+warning: circular dependency detected while parsing gtk4: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4: harfbuzz -> freetype2 -> harfbuzz
+warning: prohibited flag(s): -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -mfpmath=sse, -msse, -msse2, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread
+warning: circular dependency detected while parsing gtk4-unix-print: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4-unix-print: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing gtk4-unix-print: harfbuzz -> freetype2 -> harfbuzz
+warning: prohibited flag(s): -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -mfpmath=sse, -msse, -msse2, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread
+warning: circular dependency detected while parsing libadwaita-1: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing libadwaita-1: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: harfbuzz -> freetype2 -> harfbuzz
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: freetype2 -> harfbuzz -> freetype2
+warning: circular dependency detected while parsing libadwaita-1: harfbuzz -> freetype2 -> harfbuzz
+warning: prohibited flag(s): -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -mfpmath=sse, -msse, -msse2, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread, -pthread
+[0/1] Planning build
+Compiling plugin GenerateManual...
+Compiling plugin Swift-DocC...
 <unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
-/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:51:28: error:  initializer 'init(id:flags:)' is declared in extension of 'Application' and cannot be overridden
-    @inlinable convenience init?(id: UnsafePointer<gchar>? = nil, flags: ApplicationFlags = []) {
-                           ^
-/home/user/Projects/SwiftLibAdwaita/.build/checkouts/swiftgtk/Sources/Gtk/App.swift:103:28: note: overridden declaration is here
-    @inlinable convenience init?(id: UnsafePointer<gchar>? = nil, flags: ApplicationFlags = []) {
-                           ^
-/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:84:26: error: cannot find 'argv' in scope
-                var av = argv(params)
-                         ^~~~
-/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:136:40: error: '_shared' is inaccessible due to 'internal' protection level
-        if let sharedApp = Application._shared {
-                                       ^~~~~~~
-/home/user/Projects/SwiftLibAdwaita/.build/checkouts/swiftgtk/Sources/Gtk/App.swift:70:43: note: '_shared' declared here
-    @usableFromInline internal static var _shared: Application?
-                                          ^
-<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
-/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:51:28: error:  initializer 'init(id:flags:)' is declared in extension of 'Application' and cannot be overridden
-    @inlinable convenience init?(id: UnsafePointer<gchar>? = nil, flags: ApplicationFlags = []) {
-                           ^
-/home/user/Projects/SwiftLibAdwaita/.build/checkouts/swiftgtk/Sources/Gtk/App.swift:103:28: note: overridden declaration is here
-    @inlinable convenience init?(id: UnsafePointer<gchar>? = nil, flags: ApplicationFlags = []) {
-                           ^
-/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:84:26: error: cannot find 'argv' in scope
-                var av = argv(params)
-                         ^~~~
-/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:136:40: error: '_shared' is inaccessible due to 'internal' protection level
-        if let sharedApp = Application._shared {
-                                       ^~~~~~~
-/home/user/Projects/SwiftLibAdwaita/.build/checkouts/swiftgtk/Sources/Gtk/App.swift:70:43: note: '_shared' declared here
-    @usableFromInline internal static var _shared: Application?
-                                          ^
 <unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
 <unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
 <unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+Compiling plugin Swift-DocC Preview...
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+Compiling plugin gir2swift-plugin...
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+Building for debugging...
+[1/19] Emitting module ArgumentParserToolInfo
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[4/22] Emitting module ArgumentParser
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[7/24] Emitting module SwiftLibXML
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[10/27] Emitting module Yams
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[13/31] Emitting module libgir2swift
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[16/34] Emitting module gir2swift
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[19/21] Emitting module GLib
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[22/23] Emitting module GModule
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[25/25] Emitting module GLibObject
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[28/30] Emitting module Graphene
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[31/32] Emitting module HarfBuzz
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[34/34] Emitting module GIO
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[37/39] Emitting module Cairo
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[40/41] Emitting module GdkPixBuf
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[43/43] Emitting module Pango
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[46/46] Emitting module PangoCairo
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[49/49] Emitting module Gdk
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[52/52] Emitting module Gsk
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[55/55] Emitting module Gtk
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[58/66] Compiling Adw Adw-1-F.swift
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[59/66] Compiling Adw Adw-1-E.swift
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:3236:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:1913:32: error: cannot convert value of type 'GtkInputHints' to expected argument type 'UInt32'
+        let rv = GtkInputHints(result)
+                               ^
+                                     .rawValue
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:2062:32: error: cannot convert value of type 'GtkInputHints' to expected argument type 'UInt32'
+        let rv = GtkInputHints(result)
+                               ^
+                                     .rawValue
+[60/66] Compiling Adw Adw-1-C.swift
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:5385:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-C.swift:7400:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:5385:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+[61/66] Compiling Adw Adw-1-P.swift
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:1146:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-W.swift:9875:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:4752:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+[62/66] Compiling Adw Adw-1-bitfields.swift
 <unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
 /home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: error: overriding declaration requires an 'override' keyword
     @inlinable public init() {
@@ -56,6 +493,40 @@
 /home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-W.swift:9875:23: note: overridden declaration is here
     @inlinable public init() {
                       ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:1710:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:5385:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4542:60: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_artists(about_window_ptr, newValue)
+                                                           ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4683:62: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_designers(about_window_ptr, newValue)
+                                                             ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4746:63: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_developers(about_window_ptr, newValue)
+                                                              ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4788:64: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_documenters(about_window_ptr, newValue)
+                                                               ^
+[63/66] Compiling Adw Adw-1-A.swift
 <unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
 /home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: error: overriding declaration requires an 'override' keyword
     @inlinable public init() {
@@ -64,22 +535,54 @@
 /home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-W.swift:9875:23: note: overridden declaration is here
     @inlinable public init() {
                       ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:1710:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:5385:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4542:60: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_artists(about_window_ptr, newValue)
+                                                           ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4683:62: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_designers(about_window_ptr, newValue)
+                                                             ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4746:63: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_developers(about_window_ptr, newValue)
+                                                              ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4788:64: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_documenters(about_window_ptr, newValue)
+                                                               ^
+[64/67] Compiling Adw Adw-1-D.swift
 <unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
-/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:51:28: error:  initializer 'init(id:flags:)' is declared in extension of 'Application' and cannot be overridden
-    @inlinable convenience init?(id: UnsafePointer<gchar>? = nil, flags: ApplicationFlags = []) {
-                           ^
-/home/user/Projects/SwiftLibAdwaita/.build/checkouts/swiftgtk/Sources/Gtk/App.swift:103:28: note: overridden declaration is here
-    @inlinable convenience init?(id: UnsafePointer<gchar>? = nil, flags: ApplicationFlags = []) {
-                           ^
-/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:84:26: error: cannot find 'argv' in scope
-                var av = argv(params)
-                         ^~~~
-/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:136:40: error: '_shared' is inaccessible due to 'internal' protection level
-        if let sharedApp = Application._shared {
-                                       ^~~~~~~
-/home/user/Projects/SwiftLibAdwaita/.build/checkouts/swiftgtk/Sources/Gtk/App.swift:70:43: note: '_shared' declared here
-    @usableFromInline internal static var _shared: Application?
-                                          ^
+[65/67] Compiling Adw Adw-1-B.swift
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[66/67] Compiling Adw Adw-1-W.swift
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-W.swift:9875:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+error: emit-module command failed with exit code 1 (use -v to see invocation)[67/67] Emitting module Adw
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
 /home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: error: overriding declaration requires an 'override' keyword
     @inlinable public init() {
                       ^
@@ -163,350 +666,3 @@
 /home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: note: overridden declaration is here
     @inlinable public init() {
                       ^
-<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
-<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
-<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
-<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:3236:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:1913:32: error: cannot convert value of type 'GtkInputHints' to expected argument type 'UInt32'
-        let rv = GtkInputHints(result)
-                               ^
-                                     .rawValue
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:2062:32: error: cannot convert value of type 'GtkInputHints' to expected argument type 'UInt32'
-        let rv = GtkInputHints(result)
-                               ^
-                                     .rawValue
-<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:3236:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:1913:32: error: cannot convert value of type 'GtkInputHints' to expected argument type 'UInt32'
-        let rv = GtkInputHints(result)
-                               ^
-                                     .rawValue
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:2062:32: error: cannot convert value of type 'GtkInputHints' to expected argument type 'UInt32'
-        let rv = GtkInputHints(result)
-                               ^
-                                     .rawValue
-<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:3236:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:1913:32: error: cannot convert value of type 'GtkInputHints' to expected argument type 'UInt32'
-        let rv = GtkInputHints(result)
-                               ^
-                                     .rawValue
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:2062:32: error: cannot convert value of type 'GtkInputHints' to expected argument type 'UInt32'
-        let rv = GtkInputHints(result)
-                               ^
-                                     .rawValue
-<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:1146:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-W.swift:9875:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:4752:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:1146:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-W.swift:9875:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:4752:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:1146:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-W.swift:9875:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:4752:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-W.swift:9875:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:1710:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:5385:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4542:60: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
-            adw_about_window_set_artists(about_window_ptr, newValue)
-                                                           ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4683:62: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
-            adw_about_window_set_designers(about_window_ptr, newValue)
-                                                             ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4746:63: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
-            adw_about_window_set_developers(about_window_ptr, newValue)
-                                                              ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4788:64: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
-            adw_about_window_set_documenters(about_window_ptr, newValue)
-                                                               ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-C.swift:7400:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:5385:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-W.swift:9875:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:1710:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:5385:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4542:60: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
-            adw_about_window_set_artists(about_window_ptr, newValue)
-                                                           ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4683:62: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
-            adw_about_window_set_designers(about_window_ptr, newValue)
-                                                             ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4746:63: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
-            adw_about_window_set_developers(about_window_ptr, newValue)
-                                                              ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4788:64: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
-            adw_about_window_set_documenters(about_window_ptr, newValue)
-                                                               ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-C.swift:7400:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:5385:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-W.swift:9875:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:1710:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:5385:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4542:60: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
-            adw_about_window_set_artists(about_window_ptr, newValue)
-                                                           ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4683:62: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
-            adw_about_window_set_designers(about_window_ptr, newValue)
-                                                             ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4746:63: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
-            adw_about_window_set_developers(about_window_ptr, newValue)
-                                                              ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4788:64: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
-            adw_about_window_set_documenters(about_window_ptr, newValue)
-                                                               ^
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-C.swift:7400:23: error: overriding declaration requires an 'override' keyword
-    @inlinable public init() {
-                      ^
-                      override 
-/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:5385:23: note: overridden declaration is here
-    @inlinable public init() {
-                      ^
-<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
-[25/25] Compiling Adw Adw-1-L.swift
