@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
   name: "SwiftAdw",
-  products: [.library(name: "Adw", targets: ["Adw"])],
+  products: [.library(name: "Adw", targets: ["Adw"]), .executable(name: "Example", targets: ["Example"])],
   dependencies: [
     .package(url: "https://github.com/rhx/gir2swift.git", branch: "main"),
     .package(url: "https://github.com/rhx/swiftgtk.git", branch: "gtk4-monorepo"),
@@ -23,10 +23,8 @@ let package = Package(
         .unsafeFlags(
           ["-suppress-warnings", "-Xfrontend", "-serialize-debugging-options"],
           .when(configuration: .debug)),
-      ],
-      plugins: [
-        .plugin(name: "gir2swift-plugin", package: "gir2swift")
       ]
     ),
+    .executableTarget(name: "Example", dependencies: ["Adw", .product(name: "Gtk", package: "swiftgtk")])
   ]
 )
