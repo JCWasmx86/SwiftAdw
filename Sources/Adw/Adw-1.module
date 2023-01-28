@@ -1,0 +1,16 @@
+import CGLib
+import CCairo
+import CPango
+import CGdkPixbuf
+import CGdk
+import CGtk
+import CAdw
+import GLib
+import GLibObject
+import GIO
+import Pango
+import Cairo
+import PangoCairo
+import GdkPixBuf
+import Gdk
+import Gtk

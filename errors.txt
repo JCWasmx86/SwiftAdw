@@ -1,0 +1,512 @@
+/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:51:28: error:  initializer 'init(id:flags:)' is declared in extension of 'Application' and cannot be overridden
+    @inlinable convenience init?(id: UnsafePointer<gchar>? = nil, flags: ApplicationFlags = []) {
+                           ^
+/home/user/Projects/SwiftLibAdwaita/.build/checkouts/swiftgtk/Sources/Gtk/App.swift:103:28: note: overridden declaration is here
+    @inlinable convenience init?(id: UnsafePointer<gchar>? = nil, flags: ApplicationFlags = []) {
+                           ^
+/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:84:26: error: cannot find 'argv' in scope
+                var av = argv(params)
+                         ^~~~
+/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:136:40: error: '_shared' is inaccessible due to 'internal' protection level
+        if let sharedApp = Application._shared {
+                                       ^~~~~~~
+/home/user/Projects/SwiftLibAdwaita/.build/checkouts/swiftgtk/Sources/Gtk/App.swift:70:43: note: '_shared' declared here
+    @usableFromInline internal static var _shared: Application?
+                                          ^
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:51:28: error:  initializer 'init(id:flags:)' is declared in extension of 'Application' and cannot be overridden
+    @inlinable convenience init?(id: UnsafePointer<gchar>? = nil, flags: ApplicationFlags = []) {
+                           ^
+/home/user/Projects/SwiftLibAdwaita/.build/checkouts/swiftgtk/Sources/Gtk/App.swift:103:28: note: overridden declaration is here
+    @inlinable convenience init?(id: UnsafePointer<gchar>? = nil, flags: ApplicationFlags = []) {
+                           ^
+/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:84:26: error: cannot find 'argv' in scope
+                var av = argv(params)
+                         ^~~~
+/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:136:40: error: '_shared' is inaccessible due to 'internal' protection level
+        if let sharedApp = Application._shared {
+                                       ^~~~~~~
+/home/user/Projects/SwiftLibAdwaita/.build/checkouts/swiftgtk/Sources/Gtk/App.swift:70:43: note: '_shared' declared here
+    @usableFromInline internal static var _shared: Application?
+                                          ^
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:51:28: error:  initializer 'init(id:flags:)' is declared in extension of 'Application' and cannot be overridden
+    @inlinable convenience init?(id: UnsafePointer<gchar>? = nil, flags: ApplicationFlags = []) {
+                           ^
+/home/user/Projects/SwiftLibAdwaita/.build/checkouts/swiftgtk/Sources/Gtk/App.swift:103:28: note: overridden declaration is here
+    @inlinable convenience init?(id: UnsafePointer<gchar>? = nil, flags: ApplicationFlags = []) {
+                           ^
+/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:84:26: error: cannot find 'argv' in scope
+                var av = argv(params)
+                         ^~~~
+/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:136:40: error: '_shared' is inaccessible due to 'internal' protection level
+        if let sharedApp = Application._shared {
+                                       ^~~~~~~
+/home/user/Projects/SwiftLibAdwaita/.build/checkouts/swiftgtk/Sources/Gtk/App.swift:70:43: note: '_shared' declared here
+    @usableFromInline internal static var _shared: Application?
+                                          ^
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-W.swift:9875:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-W.swift:9875:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:51:28: error:  initializer 'init(id:flags:)' is declared in extension of 'Application' and cannot be overridden
+    @inlinable convenience init?(id: UnsafePointer<gchar>? = nil, flags: ApplicationFlags = []) {
+                           ^
+/home/user/Projects/SwiftLibAdwaita/.build/checkouts/swiftgtk/Sources/Gtk/App.swift:103:28: note: overridden declaration is here
+    @inlinable convenience init?(id: UnsafePointer<gchar>? = nil, flags: ApplicationFlags = []) {
+                           ^
+/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:84:26: error: cannot find 'argv' in scope
+                var av = argv(params)
+                         ^~~~
+/home/user/Projects/SwiftLibAdwaita/Sources/Adw/App.swift:136:40: error: '_shared' is inaccessible due to 'internal' protection level
+        if let sharedApp = Application._shared {
+                                       ^~~~~~~
+/home/user/Projects/SwiftLibAdwaita/.build/checkouts/swiftgtk/Sources/Gtk/App.swift:70:43: note: '_shared' declared here
+    @usableFromInline internal static var _shared: Application?
+                                          ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-W.swift:9875:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:1710:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:5385:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4542:60: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_artists(about_window_ptr, newValue)
+                                                           ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4683:62: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_designers(about_window_ptr, newValue)
+                                                             ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4746:63: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_developers(about_window_ptr, newValue)
+                                                              ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4788:64: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_documenters(about_window_ptr, newValue)
+                                                               ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-C.swift:7400:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:5385:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:3236:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:1913:32: error: cannot convert value of type 'GtkInputHints' to expected argument type 'UInt32'
+        let rv = GtkInputHints(result)
+                               ^
+                                     .rawValue
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:2062:32: error: cannot convert value of type 'GtkInputHints' to expected argument type 'UInt32'
+        let rv = GtkInputHints(result)
+                               ^
+                                     .rawValue
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:1146:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:4752:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:3236:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:1913:32: error: cannot convert value of type 'GtkInputHints' to expected argument type 'UInt32'
+        let rv = GtkInputHints(result)
+                               ^
+                                     .rawValue
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:2062:32: error: cannot convert value of type 'GtkInputHints' to expected argument type 'UInt32'
+        let rv = GtkInputHints(result)
+                               ^
+                                     .rawValue
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:3236:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:1913:32: error: cannot convert value of type 'GtkInputHints' to expected argument type 'UInt32'
+        let rv = GtkInputHints(result)
+                               ^
+                                     .rawValue
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:2062:32: error: cannot convert value of type 'GtkInputHints' to expected argument type 'UInt32'
+        let rv = GtkInputHints(result)
+                               ^
+                                     .rawValue
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:3236:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:1913:32: error: cannot convert value of type 'GtkInputHints' to expected argument type 'UInt32'
+        let rv = GtkInputHints(result)
+                               ^
+                                     .rawValue
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:2062:32: error: cannot convert value of type 'GtkInputHints' to expected argument type 'UInt32'
+        let rv = GtkInputHints(result)
+                               ^
+                                     .rawValue
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:1146:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-W.swift:9875:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:4752:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:1146:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-W.swift:9875:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:4752:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:1146:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-E.swift:915:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-W.swift:9875:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:4752:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-W.swift:9875:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:1710:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:5385:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4542:60: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_artists(about_window_ptr, newValue)
+                                                           ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4683:62: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_designers(about_window_ptr, newValue)
+                                                             ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4746:63: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_developers(about_window_ptr, newValue)
+                                                              ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4788:64: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_documenters(about_window_ptr, newValue)
+                                                               ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-C.swift:7400:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:5385:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-W.swift:9875:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:1710:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:5385:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4542:60: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_artists(about_window_ptr, newValue)
+                                                           ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4683:62: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_designers(about_window_ptr, newValue)
+                                                             ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4746:63: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_developers(about_window_ptr, newValue)
+                                                              ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4788:64: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_documenters(about_window_ptr, newValue)
+                                                               ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-C.swift:7400:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:5385:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-W.swift:9875:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:1710:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-W.swift:624:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftgtk/Gtk/gir2swift-plugin/gir2swift-generated/Gtk/Gtk-4.0-L.swift:11340:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:5385:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-P.swift:3820:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4542:60: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_artists(about_window_ptr, newValue)
+                                                           ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4683:62: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_designers(about_window_ptr, newValue)
+                                                             ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4746:63: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_developers(about_window_ptr, newValue)
+                                                              ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:4788:64: error: cannot convert value of type 'UnsafePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafePointer<Optional<UnsafePointer<Int8>>>>') to expected argument type 'UnsafeMutablePointer<UnsafePointer<CChar>?>?' (aka 'Optional<UnsafeMutablePointer<Optional<UnsafePointer<Int8>>>>')
+            adw_about_window_set_documenters(about_window_ptr, newValue)
+                                                               ^
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-C.swift:7400:23: error: overriding declaration requires an 'override' keyword
+    @inlinable public init() {
+                      ^
+                      override 
+/home/user/Projects/SwiftLibAdwaita/.build/plugins/outputs/swiftlibadwaita/Adw/gir2swift-plugin/gir2swift-generated/Adw/Adw-1-A.swift:5385:23: note: overridden declaration is here
+    @inlinable public init() {
+                      ^
+<unknown>:0: remark: unable to perform implicit import of "_StringProcessing" module: no such module found
+[25/25] Compiling Adw Adw-1-L.swift

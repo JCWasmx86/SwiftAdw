@@ -1,0 +1,5 @@
+version: 1
+gir-name: Adw-1
+pkg-config: libadwaita-1
+output-directory: Sources/Adw
+alpha-names: true
